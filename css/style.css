@@ -1,0 +1,50 @@
+body {
+  font-family: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  width: 500px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container h5 {
+  padding: 20px 0 20px;
+  font-weight: bold;
+}
+
+.btn-custom {
+  background-color: #00eaff;
+  color: #000;
+  font-weight: bold;
+  width: 200px;
+  margin: 30px auto;
+}
+.btn-custom:hover {
+  background-color: #00c3d6;
+}
+.custom-button {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 10px auto;
+  font-size: 16px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+.custom-button:hover {
+  background-color: #e0e0e0;
+}
+.error {
+  color: red;
+  font-weight: bold;
+  float: left;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="./script/RegisterSuccess.js"></script>
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Register</h3>
+      <form id="registerForm">
+        <div class="form-group row">
+          <label for="fullName" class="col-sm-4 col-form-label text-left"
+            >Full Name</label
+          >
+          <div class="col-sm-8">
+            <input
+              type="text"
+              class="form-control"
+              id="fullName"
+              name="fullName"
+              placeholder="Enter Your Full Name"
+              value=""
+            />
+            <div id="fullNameError" class="error"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="email" class="col-sm-4 col-form-label text-left"
+            >Email</label
+          >
+          <div class="col-sm-8">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Enter Your Email ID"
+              value=""
+            />
+            <div id="emailError" class="error"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="password" class="col-sm-4 col-form-label text-left"
+            >Password</label
+          >
+          <div class="col-sm-8">
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Enter Your password"
+              id="password"
+              name="password"
+              value=""
+            />
+            <div id="CurrentPasswordError" class="error"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="password" class="col-sm-4 col-form-label text-left"
+            >Confirm Password</label
+          >
+          <div class="col-sm-8">
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Enter Your Confirm password"
+              id="confirmPassword"
+              name="confirmPassword"
+              value=""
+            />
+            <div id="passwordError" class="error"></div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-custom btn-block">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
